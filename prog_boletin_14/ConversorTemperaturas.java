@@ -7,8 +7,8 @@ package prog_boletin_14;
 public class ConversorTemperaturas {
 
     final int valorConstante = 80;
-    
-     public ConversorTemperaturas() {
+
+    public ConversorTemperaturas() {
     }
 
     public float centigradosAFharenheit(float tempC) throws TemperaturaErradaExcepcion {
@@ -19,7 +19,6 @@ public class ConversorTemperaturas {
         }
     }
 
-    
     public float centigradosAReamur(float tempC) throws TemperaturaErradaExcepcion {
         if (tempC > this.valorConstante) {
             return (4.0f / 5.0f * tempC);
